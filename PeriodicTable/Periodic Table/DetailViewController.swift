@@ -42,13 +42,13 @@ class DetailViewController: UIViewController {
             number.text = tryDisplaying(Object:detailedElement?.number) + " "
             mass.text = tryDisplaying(Object:detailedElement?.atomic_mass)
             
-            /*let color: UIColor = UIColor.init(hex: (detailedElement?.color)!)!
+            let color: UIColor = UIColor.init(hex: (detailedElement?.color)!)!
             
             symbol.backgroundColor = color
             name.backgroundColor = color
             number.backgroundColor = color
             mass.backgroundColor = color
-            */
+ 
             summary.text = tryDisplaying(Object:detailedElement?.summary)
             appearance.text = tryDisplaying(Object:detailedElement?.appearance)
             category.text = tryDisplaying(Object:detailedElement?.category)
@@ -84,6 +84,7 @@ extension UIColor {
     public convenience init?(hex: String) {
         let r, g, b, a: CGFloat
         
+        print("Gets here")
         if hex.hasPrefix("#") {
             let start = hex.index(hex.startIndex, offsetBy: 1)
             let hexColor = String(hex[start...])
