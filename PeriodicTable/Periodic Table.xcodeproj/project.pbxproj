@@ -15,6 +15,9 @@
 		B700CC7223392610002E89FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B700CC7023392610002E89FA /* LaunchScreen.storyboard */; };
 		B700CC7D23392610002E89FA /* Periodic_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B700CC7C23392610002E89FA /* Periodic_TableTests.swift */; };
 		B700CC8823392610002E89FA /* Periodic_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B700CC8723392610002E89FA /* Periodic_TableUITests.swift */; };
+		B700CC9623392DA1002E89FA /* PeriodicTableJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = B700CC9523392DA1002E89FA /* PeriodicTableJSON.json */; };
+		B711E354233D686F00CA0219 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711E353233D686F00CA0219 /* Element.swift */; };
+		B711E356233DB2D000CA0219 /* ElementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711E355233DB2D000CA0219 /* ElementCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B700CC8323392610002E89FA /* Periodic TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Periodic TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B700CC8723392610002E89FA /* Periodic_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Periodic_TableUITests.swift; sourceTree = "<group>"; };
 		B700CC8923392610002E89FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B700CC9523392DA1002E89FA /* PeriodicTableJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PeriodicTableJSON.json; sourceTree = "<group>"; };
+		B711E353233D686F00CA0219 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		B711E355233DB2D000CA0219 /* ElementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Element\U0010CellView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		B700CC6423392610002E89FA /* Periodic Table */ = {
 			isa = PBXGroup;
 			children = (
+				B700CC9523392DA1002E89FA /* PeriodicTableJSON.json */,
 				B700CC6523392610002E89FA /* AppDelegate.swift */,
 				B700CC6723392610002E89FA /* MasterViewController.swift */,
 				B700CC6923392610002E89FA /* DetailViewController.swift */,
@@ -106,6 +113,8 @@
 				B700CC6E23392610002E89FA /* Assets.xcassets */,
 				B700CC7023392610002E89FA /* LaunchScreen.storyboard */,
 				B700CC7323392610002E89FA /* Info.plist */,
+				B711E353233D686F00CA0219 /* Element.swift */,
+				B711E355233DB2D000CA0219 /* ElementCellView.swift */,
 			);
 			path = "Periodic Table";
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 				B700CC7223392610002E89FA /* LaunchScreen.storyboard in Resources */,
 				B700CC6F23392610002E89FA /* Assets.xcassets in Resources */,
 				B700CC6D23392610002E89FA /* Main.storyboard in Resources */,
+				B700CC9623392DA1002E89FA /* PeriodicTableJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B700CC6A23392610002E89FA /* DetailViewController.swift in Sources */,
+				B711E356233DB2D000CA0219 /* ElementCellView.swift in Sources */,
 				B700CC6823392610002E89FA /* MasterViewController.swift in Sources */,
+				B711E354233D686F00CA0219 /* Element.swift in Sources */,
 				B700CC6623392610002E89FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
