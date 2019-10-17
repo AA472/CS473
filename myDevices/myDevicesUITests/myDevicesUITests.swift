@@ -1,6 +1,6 @@
 //
-//  Student_Management_SystemUITests.swift
-//  Student Management SystemUITests
+//  myDevicesUITests.swift
+//  myDevicesUITests
 //
 //  Created by Aljandali, Abdullah on 10/15/19.
 //  Copyright © 2019 Aljandali, Abdullah. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Student_Management_SystemUITests: XCTestCase {
+class myDevicesUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

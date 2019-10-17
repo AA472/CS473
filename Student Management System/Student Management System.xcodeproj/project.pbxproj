@@ -7,68 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7AF551D2355736E004ADDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF551C2355736E004ADDE8 /* AppDelegate.swift */; };
-		B7AF55202355736E004ADDE8 /* Student_Management_System.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7AF551E2355736E004ADDE8 /* Student_Management_System.xcdatamodeld */; };
-		B7AF55222355736E004ADDE8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF55212355736E004ADDE8 /* MasterViewController.swift */; };
-		B7AF55242355736E004ADDE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF55232355736E004ADDE8 /* DetailViewController.swift */; };
-		B7AF55272355736E004ADDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AF55252355736E004ADDE8 /* Main.storyboard */; };
-		B7AF55292355736F004ADDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AF55282355736F004ADDE8 /* Assets.xcassets */; };
-		B7AF552C2355736F004ADDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AF552A2355736F004ADDE8 /* LaunchScreen.storyboard */; };
-		B7AF55372355736F004ADDE8 /* Student_Management_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF55362355736F004ADDE8 /* Student_Management_SystemTests.swift */; };
-		B7AF55422355736F004ADDE8 /* Student_Management_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF55412355736F004ADDE8 /* Student_Management_SystemUITests.swift */; };
+		B70340D02357D2B800AE590F /* Professor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CA2357D2B700AE590F /* Professor+CoreDataClass.swift */; };
+		B70340D12357D2B800AE590F /* Professor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CB2357D2B700AE590F /* Professor+CoreDataProperties.swift */; };
+		B70340D22357D2B800AE590F /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CC2357D2B800AE590F /* Student+CoreDataClass.swift */; };
+		B70340D32357D2B800AE590F /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CD2357D2B800AE590F /* Student+CoreDataProperties.swift */; };
+		B70340D42357D2B800AE590F /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CE2357D2B800AE590F /* Course+CoreDataClass.swift */; };
+		B70340D52357D2B800AE590F /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340CF2357D2B800AE590F /* Course+CoreDataProperties.swift */; };
+		B70340E12357D7F700AE590F /* StudentMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340E02357D7F700AE590F /* StudentMaster.swift */; };
+		B70340E32357D87000AE590F /* StudentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340E22357D87000AE590F /* StudentDetail.swift */; };
+		B70340E52358118800AE590F /* CourseMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340E42358118800AE590F /* CourseMaster.swift */; };
+		B70340E72358119E00AE590F /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340E62358119E00AE590F /* CourseDetail.swift */; };
+		B70340E9235811B700AE590F /* ProfessorMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340E8235811B700AE590F /* ProfessorMaster.swift */; };
+		B70340ED235811F100AE590F /* ProfessorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340EC235811F100AE590F /* ProfessorDetail.swift */; };
+		B70340EF2358233B00AE590F /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70340EE2358233B00AE590F /* Course+CoreDataProperties.swift */; };
+		B76D97C12356A7740011AD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D97C02356A7740011AD13 /* AppDelegate.swift */; };
+		B76D97C82356A7740011AD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76D97C62356A7740011AD13 /* Main.storyboard */; };
+		B76D97CA2356A7750011AD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76D97C92356A7750011AD13 /* Assets.xcassets */; };
+		B76D97CD2356A7750011AD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76D97CB2356A7750011AD13 /* LaunchScreen.storyboard */; };
+		B76D97D82356A7750011AD13 /* Student_Management_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D97D72356A7750011AD13 /* Student_Management_SystemTests.swift */; };
+		B76D97E32356A7750011AD13 /* Student_Management_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D97E22356A7750011AD13 /* Student_Management_SystemUITests.swift */; };
+		B76D97F22356A8340011AD13 /* Student Management System.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B76D97F02356A8340011AD13 /* Student Management System.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B7AF55332355736F004ADDE8 /* PBXContainerItemProxy */ = {
+		B76D97D42356A7750011AD13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B7AF55112355736E004ADDE8 /* Project object */;
+			containerPortal = B76D97B52356A7740011AD13 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7AF55182355736E004ADDE8;
+			remoteGlobalIDString = B76D97BC2356A7740011AD13;
 			remoteInfo = "Student Management System";
 		};
-		B7AF553E2355736F004ADDE8 /* PBXContainerItemProxy */ = {
+		B76D97DF2356A7750011AD13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B7AF55112355736E004ADDE8 /* Project object */;
+			containerPortal = B76D97B52356A7740011AD13 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7AF55182355736E004ADDE8;
+			remoteGlobalIDString = B76D97BC2356A7740011AD13;
 			remoteInfo = "Student Management System";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B7AF55192355736E004ADDE8 /* Student Management System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Management System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7AF551C2355736E004ADDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7AF551F2355736E004ADDE8 /* Student_Management_System.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Student_Management_System.xcdatamodel; sourceTree = "<group>"; };
-		B7AF55212355736E004ADDE8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		B7AF55232355736E004ADDE8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B7AF55262355736E004ADDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B7AF55282355736F004ADDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B7AF552B2355736F004ADDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7AF552D2355736F004ADDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7AF55322355736F004ADDE8 /* Student Management SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student Management SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7AF55362355736F004ADDE8 /* Student_Management_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Management_SystemTests.swift; sourceTree = "<group>"; };
-		B7AF55382355736F004ADDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7AF553D2355736F004ADDE8 /* Student Management SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student Management SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7AF55412355736F004ADDE8 /* Student_Management_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Management_SystemUITests.swift; sourceTree = "<group>"; };
-		B7AF55432355736F004ADDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70340CA2357D2B700AE590F /* Professor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B70340CB2357D2B700AE590F /* Professor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B70340CC2357D2B800AE590F /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B70340CD2357D2B800AE590F /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B70340CE2357D2B800AE590F /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B70340CF2357D2B800AE590F /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B70340E02357D7F700AE590F /* StudentMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMaster.swift; sourceTree = "<group>"; };
+		B70340E22357D87000AE590F /* StudentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetail.swift; sourceTree = "<group>"; };
+		B70340E42358118800AE590F /* CourseMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMaster.swift; sourceTree = "<group>"; };
+		B70340E62358119E00AE590F /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
+		B70340E8235811B700AE590F /* ProfessorMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorMaster.swift; sourceTree = "<group>"; };
+		B70340EC235811F100AE590F /* ProfessorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorDetail.swift; sourceTree = "<group>"; };
+		B70340EE2358233B00AE590F /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "Student Management System/Data/Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B76D97BD2356A7740011AD13 /* Student Management System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Management System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76D97C02356A7740011AD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B76D97C72356A7740011AD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B76D97C92356A7750011AD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76D97CC2356A7750011AD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76D97CE2356A7750011AD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76D97D32356A7750011AD13 /* Student Management SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student Management SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76D97D72356A7750011AD13 /* Student_Management_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Management_SystemTests.swift; sourceTree = "<group>"; };
+		B76D97D92356A7750011AD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76D97DE2356A7750011AD13 /* Student Management SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student Management SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76D97E22356A7750011AD13 /* Student_Management_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_Management_SystemUITests.swift; sourceTree = "<group>"; };
+		B76D97E42356A7750011AD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76D97F12356A8340011AD13 /* Student Management System.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Student Management System.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7AF55162355736E004ADDE8 /* Frameworks */ = {
+		B76D97BA2356A7740011AD13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF552F2355736F004ADDE8 /* Frameworks */ = {
+		B76D97D02356A7750011AD13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF553A2355736F004ADDE8 /* Frameworks */ = {
+		B76D97DB2356A7750011AD13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +100,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B7AF55102355736E004ADDE8 = {
+		B70340D82357D61E00AE590F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				B7AF551B2355736E004ADDE8 /* Student Management System */,
-				B7AF55352355736F004ADDE8 /* Student Management SystemTests */,
-				B7AF55402355736F004ADDE8 /* Student Management SystemUITests */,
-				B7AF551A2355736E004ADDE8 /* Products */,
+				B70340CA2357D2B700AE590F /* Professor+CoreDataClass.swift */,
+				B70340CB2357D2B700AE590F /* Professor+CoreDataProperties.swift */,
+				B70340CC2357D2B800AE590F /* Student+CoreDataClass.swift */,
+				B70340CD2357D2B800AE590F /* Student+CoreDataProperties.swift */,
+				B70340CE2357D2B800AE590F /* Course+CoreDataClass.swift */,
+				B70340CF2357D2B800AE590F /* Course+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B70340D92357D63000AE590F /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				B70340E02357D7F700AE590F /* StudentMaster.swift */,
+				B70340E22357D87000AE590F /* StudentDetail.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		B70340DA2357D63700AE590F /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				B70340E42358118800AE590F /* CourseMaster.swift */,
+				B70340E62358119E00AE590F /* CourseDetail.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		B70340DB2357D63C00AE590F /* Professor */ = {
+			isa = PBXGroup;
+			children = (
+				B70340E8235811B700AE590F /* ProfessorMaster.swift */,
+				B70340EC235811F100AE590F /* ProfessorDetail.swift */,
+			);
+			path = Professor;
+			sourceTree = "<group>";
+		};
+		B76D97B42356A7740011AD13 = {
+			isa = PBXGroup;
+			children = (
+				B70340EE2358233B00AE590F /* Course+CoreDataProperties.swift */,
+				B76D97BF2356A7740011AD13 /* Student Management System */,
+				B76D97D62356A7750011AD13 /* Student Management SystemTests */,
+				B76D97E12356A7750011AD13 /* Student Management SystemUITests */,
+				B76D97BE2356A7740011AD13 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B7AF551A2355736E004ADDE8 /* Products */ = {
+		B76D97BE2356A7740011AD13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7AF55192355736E004ADDE8 /* Student Management System.app */,
-				B7AF55322355736F004ADDE8 /* Student Management SystemTests.xctest */,
-				B7AF553D2355736F004ADDE8 /* Student Management SystemUITests.xctest */,
+				B76D97BD2356A7740011AD13 /* Student Management System.app */,
+				B76D97D32356A7750011AD13 /* Student Management SystemTests.xctest */,
+				B76D97DE2356A7750011AD13 /* Student Management SystemUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7AF551B2355736E004ADDE8 /* Student Management System */ = {
+		B76D97BF2356A7740011AD13 /* Student Management System */ = {
 			isa = PBXGroup;
 			children = (
-				B7AF551C2355736E004ADDE8 /* AppDelegate.swift */,
-				B7AF55212355736E004ADDE8 /* MasterViewController.swift */,
-				B7AF55232355736E004ADDE8 /* DetailViewController.swift */,
-				B7AF55252355736E004ADDE8 /* Main.storyboard */,
-				B7AF55282355736F004ADDE8 /* Assets.xcassets */,
-				B7AF552A2355736F004ADDE8 /* LaunchScreen.storyboard */,
-				B7AF552D2355736F004ADDE8 /* Info.plist */,
-				B7AF551E2355736E004ADDE8 /* Student_Management_System.xcdatamodeld */,
+				B70340DB2357D63C00AE590F /* Professor */,
+				B70340DA2357D63700AE590F /* Course */,
+				B70340D92357D63000AE590F /* Student */,
+				B70340D82357D61E00AE590F /* Data */,
+				B76D97C02356A7740011AD13 /* AppDelegate.swift */,
+				B76D97C62356A7740011AD13 /* Main.storyboard */,
+				B76D97C92356A7750011AD13 /* Assets.xcassets */,
+				B76D97CB2356A7750011AD13 /* LaunchScreen.storyboard */,
+				B76D97CE2356A7750011AD13 /* Info.plist */,
+				B76D97F02356A8340011AD13 /* Student Management System.xcdatamodeld */,
 			);
 			path = "Student Management System";
 			sourceTree = "<group>";
 		};
-		B7AF55352355736F004ADDE8 /* Student Management SystemTests */ = {
+		B76D97D62356A7750011AD13 /* Student Management SystemTests */ = {
 			isa = PBXGroup;
 			children = (
-				B7AF55362355736F004ADDE8 /* Student_Management_SystemTests.swift */,
-				B7AF55382355736F004ADDE8 /* Info.plist */,
+				B76D97D72356A7750011AD13 /* Student_Management_SystemTests.swift */,
+				B76D97D92356A7750011AD13 /* Info.plist */,
 			);
 			path = "Student Management SystemTests";
 			sourceTree = "<group>";
 		};
-		B7AF55402355736F004ADDE8 /* Student Management SystemUITests */ = {
+		B76D97E12356A7750011AD13 /* Student Management SystemUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B7AF55412355736F004ADDE8 /* Student_Management_SystemUITests.swift */,
-				B7AF55432355736F004ADDE8 /* Info.plist */,
+				B76D97E22356A7750011AD13 /* Student_Management_SystemUITests.swift */,
+				B76D97E42356A7750011AD13 /* Info.plist */,
 			);
 			path = "Student Management SystemUITests";
 			sourceTree = "<group>";
@@ -134,13 +199,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7AF55182355736E004ADDE8 /* Student Management System */ = {
+		B76D97BC2356A7740011AD13 /* Student Management System */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7AF55462355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management System" */;
+			buildConfigurationList = B76D97E72356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management System" */;
 			buildPhases = (
-				B7AF55152355736E004ADDE8 /* Sources */,
-				B7AF55162355736E004ADDE8 /* Frameworks */,
-				B7AF55172355736E004ADDE8 /* Resources */,
+				B76D97B92356A7740011AD13 /* Sources */,
+				B76D97BA2356A7740011AD13 /* Frameworks */,
+				B76D97BB2356A7740011AD13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +213,69 @@
 			);
 			name = "Student Management System";
 			productName = "Student Management System";
-			productReference = B7AF55192355736E004ADDE8 /* Student Management System.app */;
+			productReference = B76D97BD2356A7740011AD13 /* Student Management System.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B7AF55312355736F004ADDE8 /* Student Management SystemTests */ = {
+		B76D97D22356A7750011AD13 /* Student Management SystemTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7AF55492355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management SystemTests" */;
+			buildConfigurationList = B76D97EA2356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management SystemTests" */;
 			buildPhases = (
-				B7AF552E2355736F004ADDE8 /* Sources */,
-				B7AF552F2355736F004ADDE8 /* Frameworks */,
-				B7AF55302355736F004ADDE8 /* Resources */,
+				B76D97CF2356A7750011AD13 /* Sources */,
+				B76D97D02356A7750011AD13 /* Frameworks */,
+				B76D97D12356A7750011AD13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7AF55342355736F004ADDE8 /* PBXTargetDependency */,
+				B76D97D52356A7750011AD13 /* PBXTargetDependency */,
 			);
 			name = "Student Management SystemTests";
 			productName = "Student Management SystemTests";
-			productReference = B7AF55322355736F004ADDE8 /* Student Management SystemTests.xctest */;
+			productReference = B76D97D32356A7750011AD13 /* Student Management SystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B7AF553C2355736F004ADDE8 /* Student Management SystemUITests */ = {
+		B76D97DD2356A7750011AD13 /* Student Management SystemUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7AF554C2355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management SystemUITests" */;
+			buildConfigurationList = B76D97ED2356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management SystemUITests" */;
 			buildPhases = (
-				B7AF55392355736F004ADDE8 /* Sources */,
-				B7AF553A2355736F004ADDE8 /* Frameworks */,
-				B7AF553B2355736F004ADDE8 /* Resources */,
+				B76D97DA2356A7750011AD13 /* Sources */,
+				B76D97DB2356A7750011AD13 /* Frameworks */,
+				B76D97DC2356A7750011AD13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7AF553F2355736F004ADDE8 /* PBXTargetDependency */,
+				B76D97E02356A7750011AD13 /* PBXTargetDependency */,
 			);
 			name = "Student Management SystemUITests";
 			productName = "Student Management SystemUITests";
-			productReference = B7AF553D2355736F004ADDE8 /* Student Management SystemUITests.xctest */;
+			productReference = B76D97DE2356A7750011AD13 /* Student Management SystemUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B7AF55112355736E004ADDE8 /* Project object */ = {
+		B76D97B52356A7740011AD13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Aljandali, Abdullah";
 				TargetAttributes = {
-					B7AF55182355736E004ADDE8 = {
+					B76D97BC2356A7740011AD13 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					B7AF55312355736F004ADDE8 = {
+					B76D97D22356A7750011AD13 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = B7AF55182355736E004ADDE8;
+						TestTargetID = B76D97BC2356A7740011AD13;
 					};
-					B7AF553C2355736F004ADDE8 = {
+					B76D97DD2356A7750011AD13 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = B7AF55182355736E004ADDE8;
+						TestTargetID = B76D97BC2356A7740011AD13;
 					};
 				};
 			};
-			buildConfigurationList = B7AF55142355736E004ADDE8 /* Build configuration list for PBXProject "Student Management System" */;
+			buildConfigurationList = B76D97B82356A7740011AD13 /* Build configuration list for PBXProject "Student Management System" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +283,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B7AF55102355736E004ADDE8;
-			productRefGroup = B7AF551A2355736E004ADDE8 /* Products */;
+			mainGroup = B76D97B42356A7740011AD13;
+			productRefGroup = B76D97BE2356A7740011AD13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7AF55182355736E004ADDE8 /* Student Management System */,
-				B7AF55312355736F004ADDE8 /* Student Management SystemTests */,
-				B7AF553C2355736F004ADDE8 /* Student Management SystemUITests */,
+				B76D97BC2356A7740011AD13 /* Student Management System */,
+				B76D97D22356A7750011AD13 /* Student Management SystemTests */,
+				B76D97DD2356A7750011AD13 /* Student Management SystemUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B7AF55172355736E004ADDE8 /* Resources */ = {
+		B76D97BB2356A7740011AD13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AF552C2355736F004ADDE8 /* LaunchScreen.storyboard in Resources */,
-				B7AF55292355736F004ADDE8 /* Assets.xcassets in Resources */,
-				B7AF55272355736E004ADDE8 /* Main.storyboard in Resources */,
+				B76D97CD2356A7750011AD13 /* LaunchScreen.storyboard in Resources */,
+				B76D97CA2356A7750011AD13 /* Assets.xcassets in Resources */,
+				B76D97C82356A7740011AD13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF55302355736F004ADDE8 /* Resources */ = {
+		B76D97D12356A7750011AD13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF553B2355736F004ADDE8 /* Resources */ = {
+		B76D97DC2356A7750011AD13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +323,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B7AF55152355736E004ADDE8 /* Sources */ = {
+		B76D97B92356A7740011AD13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AF551D2355736E004ADDE8 /* AppDelegate.swift in Sources */,
-				B7AF55202355736E004ADDE8 /* Student_Management_System.xcdatamodeld in Sources */,
-				B7AF55222355736E004ADDE8 /* MasterViewController.swift in Sources */,
-				B7AF55242355736E004ADDE8 /* DetailViewController.swift in Sources */,
+				B70340D42357D2B800AE590F /* Course+CoreDataClass.swift in Sources */,
+				B70340EF2358233B00AE590F /* Course+CoreDataProperties.swift in Sources */,
+				B76D97C12356A7740011AD13 /* AppDelegate.swift in Sources */,
+				B70340ED235811F100AE590F /* ProfessorDetail.swift in Sources */,
+				B70340E9235811B700AE590F /* ProfessorMaster.swift in Sources */,
+				B70340D22357D2B800AE590F /* Student+CoreDataClass.swift in Sources */,
+				B70340D12357D2B800AE590F /* Professor+CoreDataProperties.swift in Sources */,
+				B70340D52357D2B800AE590F /* Course+CoreDataProperties.swift in Sources */,
+				B70340D32357D2B800AE590F /* Student+CoreDataProperties.swift in Sources */,
+				B76D97F22356A8340011AD13 /* Student Management System.xcdatamodeld in Sources */,
+				B70340E52358118800AE590F /* CourseMaster.swift in Sources */,
+				B70340E12357D7F700AE590F /* StudentMaster.swift in Sources */,
+				B70340E72358119E00AE590F /* CourseDetail.swift in Sources */,
+				B70340E32357D87000AE590F /* StudentDetail.swift in Sources */,
+				B70340D02357D2B800AE590F /* Professor+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF552E2355736F004ADDE8 /* Sources */ = {
+		B76D97CF2356A7750011AD13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AF55372355736F004ADDE8 /* Student_Management_SystemTests.swift in Sources */,
+				B76D97D82356A7750011AD13 /* Student_Management_SystemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7AF55392355736F004ADDE8 /* Sources */ = {
+		B76D97DA2356A7750011AD13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AF55422355736F004ADDE8 /* Student_Management_SystemUITests.swift in Sources */,
+				B76D97E32356A7750011AD13 /* Student_Management_SystemUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B7AF55342355736F004ADDE8 /* PBXTargetDependency */ = {
+		B76D97D52356A7750011AD13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7AF55182355736E004ADDE8 /* Student Management System */;
-			targetProxy = B7AF55332355736F004ADDE8 /* PBXContainerItemProxy */;
+			target = B76D97BC2356A7740011AD13 /* Student Management System */;
+			targetProxy = B76D97D42356A7750011AD13 /* PBXContainerItemProxy */;
 		};
-		B7AF553F2355736F004ADDE8 /* PBXTargetDependency */ = {
+		B76D97E02356A7750011AD13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7AF55182355736E004ADDE8 /* Student Management System */;
-			targetProxy = B7AF553E2355736F004ADDE8 /* PBXContainerItemProxy */;
+			target = B76D97BC2356A7740011AD13 /* Student Management System */;
+			targetProxy = B76D97DF2356A7750011AD13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B7AF55252355736E004ADDE8 /* Main.storyboard */ = {
+		B76D97C62356A7740011AD13 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7AF55262355736E004ADDE8 /* Base */,
+				B76D97C72356A7740011AD13 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B7AF552A2355736F004ADDE8 /* LaunchScreen.storyboard */ = {
+		B76D97CB2356A7750011AD13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7AF552B2355736F004ADDE8 /* Base */,
+				B76D97CC2356A7750011AD13 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +396,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B7AF55442355736F004ADDE8 /* Debug */ = {
+		B76D97E52356A7750011AD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		B7AF55452355736F004ADDE8 /* Release */ = {
+		B76D97E62356A7750011AD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +512,7 @@
 			};
 			name = Release;
 		};
-		B7AF55472355736F004ADDE8 /* Debug */ = {
+		B76D97E82356A7750011AD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -454,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		B7AF55482355736F004ADDE8 /* Release */ = {
+		B76D97E92356A7750011AD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,7 +548,7 @@
 			};
 			name = Release;
 		};
-		B7AF554A2355736F004ADDE8 /* Debug */ = {
+		B76D97EB2356A7750011AD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,7 +569,7 @@
 			};
 			name = Debug;
 		};
-		B7AF554B2355736F004ADDE8 /* Release */ = {
+		B76D97EC2356A7750011AD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +590,7 @@
 			};
 			name = Release;
 		};
-		B7AF554D2355736F004ADDE8 /* Debug */ = {
+		B76D97EE2356A7750011AD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +610,7 @@
 			};
 			name = Debug;
 		};
-		B7AF554E2355736F004ADDE8 /* Release */ = {
+		B76D97EF2356A7750011AD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,38 +633,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7AF55142355736E004ADDE8 /* Build configuration list for PBXProject "Student Management System" */ = {
+		B76D97B82356A7740011AD13 /* Build configuration list for PBXProject "Student Management System" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AF55442355736F004ADDE8 /* Debug */,
-				B7AF55452355736F004ADDE8 /* Release */,
+				B76D97E52356A7750011AD13 /* Debug */,
+				B76D97E62356A7750011AD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7AF55462355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management System" */ = {
+		B76D97E72356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management System" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AF55472355736F004ADDE8 /* Debug */,
-				B7AF55482355736F004ADDE8 /* Release */,
+				B76D97E82356A7750011AD13 /* Debug */,
+				B76D97E92356A7750011AD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7AF55492355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management SystemTests" */ = {
+		B76D97EA2356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management SystemTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AF554A2355736F004ADDE8 /* Debug */,
-				B7AF554B2355736F004ADDE8 /* Release */,
+				B76D97EB2356A7750011AD13 /* Debug */,
+				B76D97EC2356A7750011AD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7AF554C2355736F004ADDE8 /* Build configuration list for PBXNativeTarget "Student Management SystemUITests" */ = {
+		B76D97ED2356A7750011AD13 /* Build configuration list for PBXNativeTarget "Student Management SystemUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AF554D2355736F004ADDE8 /* Debug */,
-				B7AF554E2355736F004ADDE8 /* Release */,
+				B76D97EE2356A7750011AD13 /* Debug */,
+				B76D97EF2356A7750011AD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -596,17 +672,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B7AF551E2355736E004ADDE8 /* Student_Management_System.xcdatamodeld */ = {
+		B76D97F02356A8340011AD13 /* Student Management System.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B7AF551F2355736E004ADDE8 /* Student_Management_System.xcdatamodel */,
+				B76D97F12356A8340011AD13 /* Student Management System.xcdatamodel */,
 			);
-			currentVersion = B7AF551F2355736E004ADDE8 /* Student_Management_System.xcdatamodel */;
-			path = Student_Management_System.xcdatamodeld;
+			currentVersion = B76D97F12356A8340011AD13 /* Student Management System.xcdatamodel */;
+			path = "Student Management System.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = B7AF55112355736E004ADDE8 /* Project object */;
+	rootObject = B76D97B52356A7740011AD13 /* Project object */;
 }
